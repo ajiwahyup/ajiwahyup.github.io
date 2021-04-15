@@ -545,6 +545,8 @@ footer {
     #hero {
         h1 {
             font-size: 60px;
+            height: 100vh;
+            overflow-y: hidden;
         }
     }
 
