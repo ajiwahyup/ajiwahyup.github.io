@@ -156,6 +156,7 @@ a:hover {
   background-image: url("../img/hero_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 #hero:before {
@@ -213,8 +214,7 @@ a:hover {
   background-color: #FAF2F1;
   padding-top: 10%;
   width: 100%;
-  height: 100vh;
-  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 #about .right-content h1 {
@@ -523,6 +523,7 @@ footer .social-links a:hover {
   }
   #about {
     min-height: 100vh;
+    overflow: hidden;
   }
   #about .left-content img {
     width: 200px;
