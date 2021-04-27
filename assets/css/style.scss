@@ -173,6 +173,7 @@ a {
         right: 0;
         backdrop-filter: blur(8px);
         --webkit-backdrop-filter: blur(8px);
+        overflow: hidden;
     }
 
     h1 {
@@ -636,6 +637,7 @@ footer {
         border-right: 1px solid #e6e9ec;
         left: -300px;
         z-index: 9996;
+        overflow: hidden;
     }
 
     #hero {
