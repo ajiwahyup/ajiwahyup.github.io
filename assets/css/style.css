@@ -622,6 +622,10 @@ footer .social-links a:hover {
     left: -300px;
     z-index: 9996;
   }
+  #hero {
+    height: 100vh;
+    overflow: hidden;
+  }
   #hero h1 {
     font-size: 60px;
   }
