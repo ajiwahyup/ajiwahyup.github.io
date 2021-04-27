@@ -216,7 +216,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #hero .hero-waves .wave1 use {
@@ -491,6 +491,7 @@ a:hover {
   padding-top: 5%;
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 #skills h4 {
@@ -517,6 +518,7 @@ a:hover {
   padding-top: 5%;
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 #journey h4 {
