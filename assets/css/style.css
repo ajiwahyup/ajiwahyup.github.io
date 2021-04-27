@@ -572,6 +572,7 @@ footer {
   width: 100%;
   min-height: 100vh;
   background-color: #375899;
+  overflow: hidden;
 }
 
 footer .section-title2 h1 {
@@ -626,7 +627,6 @@ footer .social-links a:hover {
   }
   #about {
     min-height: 100vh;
-    overflow: hidden;
   }
   #about .left-content img {
     width: 200px;

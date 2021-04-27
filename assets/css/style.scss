@@ -587,6 +587,7 @@ footer {
     width: 100%;
     min-height: 100vh;
     background-color: #375899;
+    overflow: hidden;
 
     .section-title2 {
         h1 {
@@ -637,7 +638,6 @@ footer {
         border-right: 1px solid #e6e9ec;
         left: -300px;
         z-index: 9996;
-        overflow: hidden;
     }
 
     #hero {
@@ -648,7 +648,6 @@ footer {
 
     #about {
         min-height: 100vh;
-        overflow: hidden;
 
         .left-content {
             img {
