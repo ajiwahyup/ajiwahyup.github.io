@@ -134,13 +134,14 @@
     //     offset: '80%'
     // });
 
-    // // Init AOS
-    // function aos_init() {
-    //     AOS.init({
-    //         duration: 1000,
-    //         once: true
-    //     });
-    // }
+    // Init AOS
+    function aos_init() {
+        AOS.init({
+            duration: 1000,
+            once: false,
+            mirror: true
+        });
+    }
 
     // // Porfolio isotope and filter
     // $(window).on('load', function () {
@@ -163,8 +164,8 @@
     //         'share': false
     //     });
 
-    //     // Initiate aos_init() function
-    //     aos_init();
+    // Initiate aos_init() function
+    aos_init();
 
     // });
 
