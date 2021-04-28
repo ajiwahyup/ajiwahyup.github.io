@@ -163,7 +163,7 @@ a {
     overflow: hidden;
 
     &:before {
-        height: 100vh;
+        // height: inherit;
         content: "";
         background: rgba(255, 255, 255, 0.8);
         position: absolute;
@@ -210,6 +210,13 @@ a {
         padding-left: 10%;
         text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.16);
         z-index: 1;
+    }
+
+    #bird {
+        display: block;
+        position: absolute;
+        right: 0;
+        // bottom: 0;
     }
 
     .hero-waves {
@@ -310,9 +317,10 @@ a {
 /* ========== About ========== */
 #about {
     background-color: #FAF2F1;
-    padding-top: 10%;
+    padding: 10% 0 5% 0;
+    margin-bottom: 5%;
     width: 100%;
-    min-height: 100vh;
+    // min-height: 100vh;
     overflow-x: hidden;
 
     .right-content {
@@ -366,8 +374,9 @@ a {
 /* ========== Expertise ========== */
 #expertise {
     padding-top: 5%;
+    padding-bottom: 5%;
     width: 100%;
-    min-height: 100vh;
+    // min-height: 100vh;
     overflow-x: hidden;
 
     .icon-box {
@@ -503,8 +512,9 @@ a {
 /* ========== Skills ========== */
 #skills {
     padding-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
-    min-height: 100vh;
+    // min-height: 100vh;
     overflow-x: hidden;
 
     h4 {
@@ -532,7 +542,7 @@ a {
 #journey {
     padding-top: 5%;
     width: 100%;
-    min-height: 100vh;
+    // min-height: 100vh;
     overflow-x: hidden;
 
     h4 {
@@ -644,9 +654,6 @@ footer {
         h1 {
             font-size: 60px;
         }
-
-        height: 100vh;
-        overflow: hidden;
     }
 
     #about {
