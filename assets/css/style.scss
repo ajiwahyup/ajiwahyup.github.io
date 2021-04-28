@@ -317,7 +317,7 @@ a {
 /* ========== About ========== */
 #about {
     background-color: #FAF2F1;
-    padding: 10% 0 5% 0;
+    padding: 10% 0 10% 0;
     margin-bottom: 5%;
     width: 100%;
     // min-height: 100vh;
@@ -654,6 +654,7 @@ footer {
         h1 {
             font-size: 60px;
         }
+        z-index: -1;
     }
 
     #about {
@@ -690,10 +691,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-    #main {
-        margin-left: 100px;
-    }
-
     .nav-menu a {
         width: 56px;
     }

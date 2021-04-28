@@ -81,28 +81,28 @@
     });
 
 
-    // // Navigation active state on scroll
-    // var nav_sections = $('section');
-    // var main_nav = $('.nav-menu, #mobile-nav');
+    // Navigation active state on scroll
+    var nav_sections = $('section');
+    var main_nav = $('.nav-menu, #mobile-nav');
 
-    // $(window).on('scroll', function () {
-    //     var cur_pos = $(this).scrollTop() + 300;
+    $(window).on('scroll', function () {
+        var cur_pos = $(this).scrollTop() + 300;
 
-    //     nav_sections.each(function () {
-    //         var top = $(this).offset().top,
-    //             bottom = top + $(this).outerHeight();
+        nav_sections.each(function () {
+            var top = $(this).offset().top,
+                bottom = top + $(this).outerHeight();
 
-    //         if (cur_pos >= top && cur_pos <= bottom) {
-    //             if (cur_pos <= bottom) {
-    //                 main_nav.find('li').removeClass('active');
-    //             }
-    //             main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
-    //         }
-    //         if (cur_pos < 200) {
-    //             $(".nav-menu ul:first li:first").addClass('active');
-    //         }
-    //     });
-    // });
+            if (cur_pos >= top && cur_pos <= bottom) {
+                if (cur_pos <= bottom) {
+                    main_nav.find('li').removeClass('active');
+                }
+                main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+            }
+            if (cur_pos < 200) {
+                $(".nav-menu ul:first li:first").addClass('active');
+            }
+        });
+    });
 
     // // Back to top button
     // $(window).scroll(function () {
@@ -143,47 +143,6 @@
             mirror: true
         });
     }
-
-    // // Porfolio isotope and filter
-    // $(window).on('load', function () {
-    //     var portfolioIsotope = $('.portfolio-container').isotope({
-    //         itemSelector: '.portfolio-item'
-    //     });
-
-    //     $('#portfolio-flters li').on('click', function () {
-    //         $("#portfolio-flters li").removeClass('filter-active');
-    //         $(this).addClass('filter-active');
-
-    //         portfolioIsotope.isotope({
-    //             filter: $(this).data('filter')
-    //         });
-    //         aos_init();
-    //     });
-
-    //     // Initiate venobox (lightbox feature used in portofilo)
-    //     $('.venobox').venobox({
-    //         'share': false
-    //     });
-
-    // Initiate aos_init() function
     aos_init();
-
-    // });
-
-    // // Testimonials carousel (uses the Owl Carousel library)
-    // $(".testimonials-carousel").owlCarousel({
-    //     autoplay: true,
-    //     dots: true,
-    //     loop: true,
-    //     items: 1
-    // });
-
-    // // Portfolio details carousel
-    // $(".portfolio-details-carousel").owlCarousel({
-    //     autoplay: true,
-    //     dots: true,
-    //     loop: true,
-    //     items: 1
-    // });
 
 })(jQuery);

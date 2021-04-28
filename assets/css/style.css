@@ -316,7 +316,7 @@ a:hover {
 /* ========== About ========== */
 #about {
   background-color: #FAF2F1;
-  padding: 10% 0 5% 0;
+  padding: 10% 0 10% 0;
   margin-bottom: 5%;
   width: 100%;
   overflow-x: hidden;
@@ -626,6 +626,9 @@ footer .social-links a:hover {
     left: -300px;
     z-index: 9996;
   }
+  #hero {
+    z-index: -1;
+  }
   #hero h1 {
     font-size: 60px;
   }
@@ -651,9 +654,6 @@ footer .social-links a:hover {
 }
 
 @media (min-width: 768px) {
-  #main {
-    margin-left: 100px;
-  }
   .nav-menu a {
     width: 56px;
   }
